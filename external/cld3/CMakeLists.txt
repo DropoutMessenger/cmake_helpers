@@ -19,7 +19,7 @@ if (DESKTOP_APP_USE_PACKAGED)
     endif()
 endif()
 
-add_library(external_cld3_bundled STATIC)
+add_library(external_cld3_bundled)
 init_target(external_cld3_bundled "(external)")
 
 set(cld3_loc ${third_party_loc}/cld3)
