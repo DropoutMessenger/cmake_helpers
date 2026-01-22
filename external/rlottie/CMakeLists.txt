@@ -20,7 +20,7 @@ if (DESKTOP_APP_USE_PACKAGED_RLOTTIE)
     return()
 endif()
 
-add_library(external_rlottie_bundled STATIC)
+add_library(external_rlottie_bundled)
 init_target(external_rlottie_bundled "(external)")
 
 get_filename_component(src_loc . REALPATH)
