@@ -4,7 +4,7 @@
 # For license and copyright information please follow this link:
 # https://github.com/desktop-app/legal/blob/master/LEGAL
 
-add_library(external_qt_static_plugins_nimf STATIC)
+add_library(external_qt_static_plugins_nimf)
 add_library(desktop-app::external_qt_static_plugins_nimf ALIAS external_qt_static_plugins_nimf)
 init_target(external_qt_static_plugins_nimf "(external)")
 
