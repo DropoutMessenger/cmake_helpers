@@ -4,7 +4,7 @@
 # For license and copyright information please follow this link:
 # https://github.com/desktop-app/legal/blob/master/LEGAL
 
-add_library(external_qt_static_plugins_hime_im_client STATIC)
+add_library(external_qt_static_plugins_hime_im_client)
 add_library(desktop-app::external_qt_static_plugins_hime_im_client ALIAS external_qt_static_plugins_hime_im_client)
 init_target(external_qt_static_plugins_hime_im_client "(external)")
 
